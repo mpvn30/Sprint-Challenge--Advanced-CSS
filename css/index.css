@@ -187,6 +187,7 @@ nav .links {
   display: flex;
   width: 800px;
   justify-content: space-between;
+  transition: ease 1s;
   margin: 10px;
   font-size: 2rem;
 }
@@ -194,6 +195,9 @@ nav .links {
   nav .links {
     width: 90%;
   }
+}
+nav .links :hover {
+  border-bottom: 1px solid black;
 }
 footer {
   color: #22283B;

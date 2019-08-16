@@ -16,8 +16,10 @@ nav{
 a{
     text-decoration: none; 
     color:@river-bend;
+
 }
-    nav .navHeader{
+
+nav .navHeader{
     font-size: 4rem;
     margin: 10px;
 }
@@ -25,9 +27,14 @@ nav .links{
     display: flex;
     width: 800px;
     justify-content: space-between;
+    transition: ease 1s;
     .space();
 
     @media @phone{
         width: 90%;        
+    }
+
+    :hover{
+        border-bottom: 1px solid black;
     }
 }
