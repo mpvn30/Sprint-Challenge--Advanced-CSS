@@ -1,3 +1,5 @@
+Mike Nguyen
+
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
@@ -34,13 +36,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A repsonsive website adjusts content depending on the browser space to view the content optimally in various sizes while adaptive website re-arranges or fixes the websites lay-out depending on the size. A great example of adaptive is when a website's lay-out changes when it is viewed on a mobile phone compared to a desktop. 
+
 2. Describe what it means to be mobile first vs desktop first.
 
+Mobile first design prioritizes functionality. It focuses its approach on the designs functionality in relation to higher resolutions which creates a versatile platform.
+
+Desktop first, on the other hand, prioritzes a design the maximizes a specs to display and communicate. The desktop first design is a very detailed and dynamic design.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+If 'font-size: 62.5%' is set in the html tag, all our other elements will be set to this font-size and will follow this font size proportionately with the use of rem units.
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is the best way to organize the CSS codes that you know. It allows separate css files for each section of your website. It is organized very well and would be the easiest way to manipulate hundreds of codes with a line of code or two! Also, it takes less space of code compared to vanilla CSS because it allows nesting, variables, mix-ins, etc.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite is escaping because I love seeing my websites look great on other platforms and escaping makes it easier to create media queries and apply it to most of my elements.
+
+The parametric mix-in gives me the most trouble when I have more the a few mix-ins I often forget what parameters I placed and which I've already used.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -1,1 +1,40 @@
 // Navigation code here
+
+nav{
+    max-width: 1000px;
+    background-color: @nav-bg;
+    align-items: center;
+    margin: 0 auto;
+    .flex();
+
+    @media @phone{
+        display: flex;
+        justify-content: space-around;
+        max-width: 100%;        
+    }
+}
+a{
+    text-decoration: none; 
+    color:@river-bend;
+
+}
+
+nav .navHeader{
+    font-size: 4rem;
+    margin: 10px;
+}
+nav .links{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    transition: ease 1s;
+    .space();
+
+    @media @phone{
+        width: 90%;        
+    }
+
+    :hover{
+        border-bottom: 1px solid black;
+    }
+}
